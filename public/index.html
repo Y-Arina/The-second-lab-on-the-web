@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>The second lab on the WEB</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+			<div id="Get">
+				<label class="label_get"><b><u>Метод Get</u></b></label><br>
+					<div class="get_input_radio">
+						<input type="radio" name="num" id = "All" checked>
+						<label for="All"><i>Вывести всё</i></label><br>
+					
+						<input type="radio" name="num" id = "Num">
+						<label for="Num"><i>Вывести с первого до N-го элемента</i></label><br>
+					</div>
+				<input class="get_input_text"type="text" id = "number" ><br>
+				<button class="get_button"onclick="FunctionGet()"><i>Выполнить запрос GET</i></button>
+			</div>
+			
+			<div id="another_methods">
+				<label class="label_another_methods"><b><u>Методы Post, Delete, Put</u></b></label><br>
+				<div class="another_methods_input">
+					<input class="another_methods_inputs"type="text" id = "surname" placeholder="Введите фамилию"><br>
+					<input class="another_methods_inputs"type="text" id = "name" placeholder="Введите имя"><br>
+					<input class="another_methods_inputs"type="text" id = "email" placeholder="Введите e-mail"><br>
+					<input class="another_methods_inputs"type="text" id = "phone" placeholder="TВведите телефон"><br>
+				</div>
+				<div class="another_methods_button">
+					<button class="another_methods_buttons"onclick="FunctionPost()"><i>POST</i></button> 
+					<button class="another_methods_buttons"onclick="FunctionDelete()"><i>DELETE</i></button> 
+					<button class="another_methods_buttons"onclick="FunctionPut()"><i>PUT</i></button>
+				</div>
+			</div>
+
+			<div id = "results">
+				<label class="results_label"><b><u>Результат выполнения запроса GET</u></b></label><br>
+			</div>
+	<script  src="functions.js"></script>
+	</body>
+</html>

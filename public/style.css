@@ -1,0 +1,106 @@
+body
+{
+	background: url("https://kartinkinaden.ru/uploads/posts/2021-04/1617307467_50-p-krasivii-fon-muzhskoi-53.jpg");
+}
+
+#Get{
+	background: #BC8F8F;
+	width: 300px;
+	height: 150px;
+	position: fixed;
+	left: 300px;
+	top: 50px;
+	border: 5px inset #FFFAFA;
+	border-radius: 15px;
+}
+.label_get {
+	position: fixed;
+	top: 55px;
+	left: 420px;
+	color: #800000;
+}
+.get_input_radio{
+	position: fixed;
+	top: 75px;
+	left: 320px;
+	color: #800000;
+}
+.get_input_text {
+	position: fixed;
+	top: 125px;
+	left: 380px;
+	color: #800000;
+	background: #BC8F8F;
+	border: 1px inset #FFFAFA;
+}
+.get_button{
+	position: fixed;
+	top: 160px;
+	left: 375px;
+	color: #800000;
+	background: #BC8F8F;
+	border: 3px outset #FFFAFA;
+}
+#another_methods{
+	background: #E6E6FA;
+	width: 300px;
+	height: 150px;
+	position: fixed;
+	top: 230px;
+	left: 300px;
+	border: 5px inset #F5F5F5;
+	border-radius: 15px;
+}
+.label_another_methods {
+	position: fixed;
+	top: 235px;
+	left: 370px;
+	color: #800080;
+}
+.another_methods_input{
+	position: fixed;
+	top: 265px;
+	left: 310px;
+}
+.another_methods_inputs{
+	width: 280px;
+	background: #E6E6FA;
+	border: 1px inset #F5F5F5;
+	color: #800080;
+}
+.another_methods_button{
+	position: fixed;
+	top: 350px;
+	left: 370px;
+}
+.another_methods_buttons{
+	color: #800080;
+	background: #E6E6FA;
+	border: 3px outset #F5F5F5;
+}
+#results{
+	background: #FFA07A;
+	width: 320px;
+	height: 500px;
+	position: fixed;
+	top: 50px;
+	left: 700px;
+	border: 5px inset #FFDAB9;
+	border-radius: 15px;
+	color: #FFE4E1;
+	overflow-y: scroll;
+}
+.results_label{
+	margin-left: 20px;
+}
+.results_item{
+	background: #FFEBCD;
+	color: #A0522D;
+	width: 280px;
+	margin-left: 10px;
+	border: 3px outset #F5DEB3;
+	border-radius: 15px;
+}
+.results_items{
+	margin-left: 10px;
+}
